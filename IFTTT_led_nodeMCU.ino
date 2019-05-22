@@ -1,13 +1,15 @@
 #include<ESP8266WiFi.h>
 #include "Adafruit_MQTT_Client.h"
 
+
+// Make changes to basic connection details
 // Wifi details
-#define wifi "internet here bitch, AMA"
-#define pass "dumdumdiggadigga"
+#define wifi "SSID"
+#define pass "Password"
 
 // adafruit details
-#define user "anurag403"
-#define key "aec4453133614cf99a6032a18ebebad9"
+#define user "Adafruit Account"
+#define key "Server Key"
 
 #define port 1883
 #define server "io.adafruit.com"
